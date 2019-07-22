@@ -1,0 +1,105 @@
+@font-face {
+    font-family: MADE Evolve Sans;
+    font-style: Bold;
+    src:url(../made_evolve_sans/MADEEvolveSansBold.otf);
+}
+@font-face {
+    font-family: MADE Evolve Sans;
+    font-style: Light;
+    src:url(../made_evolve_sans/MADEEvolveSansLight.otf);
+}
+@font-face {
+    font-family: MADE Evolve Sans EVO;
+    font-style: Light;
+    src:url(../made_evolve_sans/MADEEvolveSansBoldEVO.otf);
+}
+#h1 {
+  margin-left: -65px;
+  margin-top: -95px;
+  white-space:nowrap;
+  font-family:"MADE Evolve Sans EVO";
+  font-style: Light;
+  font-size: 160px;
+  color:#fff;
+  text-shadow: 2px 1px 6px  #000;
+}
+h2 {
+  /* margin-left: -px; */
+  margin-top: -95px;
+  white-space:nowrap;
+  font-family:MADE Evolve Sans;
+  font-style: bold;
+  font-size: 40px;
+  color:#fff;
+  text-shadow: 2px 1px 6px  #000;
+}
+#h3 {
+  /* margin-left: -65px; */
+  margin-top: -95px;
+  white-space:nowrap;
+  font-family:MADE Evolve Sans EVO;
+  font-size: 160px;
+  color:#fff;
+  text-shadow: 2px 1px 6px  #000;
+}
+
+#nvar{
+height: 90px;
+background: linear-gradient(to top, rgba(0, 0,0, 1) 0%, rgba(0,0, 0, 0.5) 100%);
+background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4) 100%);
+/* background-color: #2f4353;
+background-image: linear-gradient(315deg, #2f4353 0%, #d2ccc4 74%); */
+}
+/*
+#i{
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 60px;
+  margin-left: -110px;
+  box-shadow: 2px 1px 6px  #000;
+}
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}#b{
+    color: #fff;
+    height: 170px;
+    text-align: center;
+} */
+#body-index{
+background-image: url("../images/index.jpg");
+background-repeat: none;
+}
+#body-page2{
+    background-image: url("../images/serenata/bgrnd.jpg");
+    background-repeat: none;
+    /* -webkit-filter: brightness(0.30);filter: brightness(0.30); */
+}
+#body-page3{
+    background-image: url("../images/festival/bgrnd.jpg");
+    background-repeat: none;
+    /* -webkit-filter: brightness(0.30);filter: brightness(0.30); */
+}
+#body-page4{
+    background-image: url("../images/cultural/nn.jpg");
+    background-repeat: none;
+}
+#body-page5{
+    background-image: url("../images//baile/bail.jpg");
+    background-repeat: none;
+}
+
+/* #images-list{
+
+} */
+#imgs{
+    margin:auto;
+    -webkit-filter: drop-shadow(8px 8px 10px gray); /* Safari 6.0 - 9.0 */
+  filter: drop-shadow(8px 8px 10px gray);
+    width: 600px;
+}
+#spa{
+    margin: auto;
+    padding: 80px;
+}
