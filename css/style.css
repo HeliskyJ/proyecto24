@@ -27,8 +27,8 @@ h2 {
   /* margin-left: -px; */
   margin-top: -95px;
   white-space:nowrap;
-  font-family:MADE Evolve Sans;
-  font-style: bold;
+  font-family:"MADE Evolve Sans";
+  /* font-style: bold; */
   font-size: 40px;
   color:#fff;
   text-shadow: 2px 1px 6px  #000;
@@ -62,11 +62,10 @@ background-image: linear-gradient(315deg, #2f4353 0%, #d2ccc4 74%); */
 .down {
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
-}#b{
+}*/#b{
     color: #fff;
-    height: 170px;
     text-align: center;
-} */
+}
 #body-index{
 background-image: url("../images/index.jpg");
 background-repeat: none;
